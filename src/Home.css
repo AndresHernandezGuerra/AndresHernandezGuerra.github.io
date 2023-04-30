@@ -1,0 +1,101 @@
+.homepage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: #1a1a1a;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.branding {
+    font-size: 24px;
+    color: #fff;
+    text-shadow: 1px 1px #000;
+    padding: auto;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin-right: 40px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    background-image: linear-gradient(to bottom,
+            rgba(255, 255, 255, 0.2) 0%,
+            rgba(255, 255, 255, 0.2) 100%);
+    background-repeat: repeat-x;
+    background-size: 2px 2px;
+    background-position: bottom 5px center;
+    padding-bottom: 5px;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.intro h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.intro p {
+    font-size: 24px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.skills-section {
+    padding: 3rem;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin-bottom: 1rem;
+    width: calc(33.33% - 1rem);
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: calc(50% - 1rem);
+    }
+}

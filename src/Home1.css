@@ -1,0 +1,30 @@
+.homepage {
+    padding-top: 5rem;
+  }
+  
+  .intro-section {
+    background-color: #343a40;
+    color: white;
+  }
+  
+  .skills-section {
+    padding: 3rem;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    margin-bottom: 1rem;
+    width: calc(33.33% - 1rem);
+  }
+  
+  @media screen and (max-width: 768px) {
+    .card {
+      width: calc(50% - 1rem);
+    }
+  }
+  

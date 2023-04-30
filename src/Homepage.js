@@ -23,9 +23,9 @@ function Homepage() {
         </div>
         <nav>
           <ul>
-            <li><a href="#about">About</a></li>
+            <li><a href="#about">About Me</a></li>
             <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#contact">Contact Info</a></li>
           </ul>
         </nav>
       </header>
@@ -35,8 +35,8 @@ function Homepage() {
           <Col>
             <h1 data-aos="fade-down">Welcome to My Portfolio</h1>
             <p data-aos="fade-up">
-              I am a software developer with experience in React, Node.js, and
-              MongoDB.
+              I am a software developer with experience in Swift, SwiftUI, React, Node.js, and
+              Typescript.
             </p>
           </Col>
         </Row>

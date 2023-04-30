@@ -19,7 +19,7 @@ function Homepage() {
     <div className="homepage">
       <header>
         <div class="branding">
-          <h2>Your Name</h2>
+          <h2>Andres Hernandez Guerra</h2>
         </div>
         <nav>
           <ul>
